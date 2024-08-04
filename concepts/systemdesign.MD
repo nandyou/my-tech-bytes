@@ -21,12 +21,12 @@ How to answer Questions about System Design?
 
 ## API Design
 
-### Explain API use case
-### Explain API Schema 
-### Explain api protocol and reason for selecting the protocol
+- Explain API use case
+- Explain API Schema 
+- Explain api protocol and reason for selecting the protocol
 
 ## Explain Data store
-### Explain different data types of data store
-### Explain why this data store
+- Explain different data types of data store
+- Explain why this data store
 
 
