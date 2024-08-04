@@ -29,10 +29,10 @@ How to answer Questions about System Design?
 - Explain different data types of data store
 - Explain why this data store
 - Explain Capacity
- - Traffic ( derive read and write Query Per Second based on requirements)
- - Memory (based on data type and element of data calculate memory for a day, year and 10 year)
- - Storage (based on data type and element of data calculate storage for a day, year and 10 year)
- - Bandwidth (based on traffic and data per query calculate bandwidth)
+  - Traffic ( derive read and write Query Per Second based on requirements)
+  - Memory (based on data type and element of data calculate memory for a day, year and 10 year)
+  - Storage (based on data type and element of data calculate storage for a day, year and 10 year)
+  - Bandwidth (based on traffic and data per query calculate bandwidth)
 
 
 
