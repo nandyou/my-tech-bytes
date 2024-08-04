@@ -15,3 +15,7 @@
   - due to serveral cache expiring at same time
   - can be solved by adding jitter on cache expiration
     (Jitter in cache expiration is a technique that involves adding random variations to the time-to-live (TTL) value of cache entries. This causes cache entries to expire at slightly different times, rather than all at once.)
+
+
+## Types of Cache 
+  - https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/
