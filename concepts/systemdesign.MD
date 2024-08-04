@@ -17,7 +17,7 @@ How to answer Questions about System Design?
 ## based on this create requirements and non functional requirements
 
 - 
-![e.g.](https://github.com/nandyou/my-tech-bytes/blob/main/concepts/SystemDesign-Requirements.png?raw=true)
+![e.g.](https://github.com/nandyou/my-tech-bytes/blob/main/concepts/SsytemDesign-Requirements.png?raw=true)
 
 ## API Design
 
