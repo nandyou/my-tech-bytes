@@ -40,6 +40,14 @@ How to answer Questions about System Design?
 
 ## Explain what tools can be used to analyse the system 
 
+## Create a Summary
+- Availability
+- LAtency
+- Scability
+- Reliability
+- Security
+
+
 
 
 
