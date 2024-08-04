@@ -1,4 +1,4 @@
-#How to decided which DataStore?
+# Things to consider when talking "DataStore"
  - based on data structure?
  - Read/Write Frequency?
    - Time complexity for each operation
