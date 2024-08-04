@@ -20,3 +20,40 @@ The following are the benefits of using Redis for building the leaderboard6:
 The metadata of the player such as the name of the player is required to display the leaderboard. The player ID is available in the sorted sets and the metadata of the player can be fetched from the relational database. The hash data type in Redis can cache the metadata of players for quick access to the metadata. The hash data type can hold multiple name-value pairs that are associated with a key. The drawback of the hash data type is that the hash consumes memory. Alternatively, the read replicas of the relational database can be queried to fetch the metadata.
 
 A relational database such as PostgreSQL can be used for the persistent storage of the leaderboard data to support complex analytical queries. The profile images of the players can be stored in a managed object storage such as AWS S3.
+
+
+##Here's a summary of the text in pointer format:
+
+- **Database Choices for Leaderboards**:
+  - Both relational databases and NoSQL data stores can be used to store and display leaderboard data.
+  - Relational databases are optimal for small datasets but struggle with scalability for large player counts (e.g., millions).
+
+- **Limitations of Relational Databases**:
+  - Ranking computation requires full table scans, leading to inefficiencies.
+  - Caching read queries can produce stale leaderboard data.
+  - Query times increase significantly with millions of players.
+  - Normalized schemas require multiple table joins.
+  - Disk seeks lead to suboptimal performance for real-time updates.
+  - Nested queries result in quadratic time complexity for rank computation.
+  - Average query time can be around 10 seconds for large datasets.
+
+- **Concurrency Issues**:
+  - Relational databases work well with low to moderate concurrent players (below 100,000).
+  - Increased concurrent access complicates scaling.
+
+- **Benefits of In-Memory Databases (e.g., Redis)**:
+  - Supports scalable and performant real-time leaderboards.
+  - Uses sorted sets for logarithmic time complexity (O(log(n))) for rank access.
+  - Automatically sorts items during upsert operations, reducing query latency.
+
+- **Redis Advantages**:
+  - Frees up resources for other database requests.
+  - Optimized data structure for leaderboard use cases.
+  - Can cache player metadata using hash data types for quick access.
+  - Hash data types hold multiple name-value pairs but consume memory.
+
+- **Persistent Storage Options**:
+  - PostgreSQL can be used for persistent leaderboard data to support complex analytical queries.
+  - Player profile images can be stored in managed object storage like AWS S3.
+
+This structure summarizes the main points while retaining the critical information from the original text.
