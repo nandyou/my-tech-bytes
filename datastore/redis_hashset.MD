@@ -11,10 +11,12 @@ As long as the number of concurrent players in the game remains low to moderate 
 
 An in-memory database such as Redis can be used to build a scalable and performant real-time leaderboard. The sorted set data type in Redis offers in-memory and responsive access to the requirements of the leaderboard in logarithmic time complexity, O(log(n)), where n is the number of elements in the sorted set 8. The sorted set data type in Redis contains a set of items (players) with associated scores, which are used to rank the items in ascending order.
 
-The sorted set data type in Redis automatically sorts the item based on the score during the upsert operations. The queries are significantly faster due to the presorting of items. On the contrary, the relational database sorts the items during the query time resulting in latency and adding further computational burden to the database. In summary, the Redis sorted sets can offer significant performance gains and also be a cost-efficient solution. The following are the benefits of using Redis for building the leaderboard6:
+The sorted set data type in Redis automatically sorts the item based on the score during the upsert operations. The queries are significantly faster due to the presorting of items. On the contrary, the relational database sorts the items during the query time resulting in latency and adding further computational burden to the database. In summary, the Redis sorted sets can offer significant performance gains and also be a cost-efficient solution. 
+The following are the benefits of using Redis for building the leaderboard6:
 
-frees up database resources to handle other types of requests
-supports a data structure optimized to handle leaderboard use cases
+ - frees up database resources to handle other types of requests
+ - supports a data structure optimized to handle leaderboard use cases
+
 The metadata of the player such as the name of the player is required to display the leaderboard. The player ID is available in the sorted sets and the metadata of the player can be fetched from the relational database. The hash data type in Redis can cache the metadata of players for quick access to the metadata. The hash data type can hold multiple name-value pairs that are associated with a key. The drawback of the hash data type is that the hash consumes memory. Alternatively, the read replicas of the relational database can be queried to fetch the metadata.
 
 A relational database such as PostgreSQL can be used for the persistent storage of the leaderboard data to support complex analytical queries. The profile images of the players can be stored in a managed object storage such as AWS S3.
