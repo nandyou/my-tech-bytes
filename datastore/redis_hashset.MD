@@ -22,7 +22,7 @@ The metadata of the player such as the name of the player is required to display
 A relational database such as PostgreSQL can be used for the persistent storage of the leaderboard data to support complex analytical queries. The profile images of the players can be stored in a managed object storage such as AWS S3.
 
 
-##Here's a summary of the text in pointer format:
+## Here's a summary of the text in pointer format:
 
 - **Database Choices for Leaderboards**:
   - Both relational databases and NoSQL data stores can be used to store and display leaderboard data.
