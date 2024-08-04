@@ -34,6 +34,12 @@ How to answer Questions about System Design?
   - Storage (based on data type and element of data calculate storage for a day, year and 10 year)
   - Bandwidth (based on traffic and data per query calculate bandwidth)
 
+## Explain Different scenarios with a walk through
+- explain how to perform x action
+- explain how to perform y action
+
+## Explain what tools can be used to analyse the system 
+
 
 
 
