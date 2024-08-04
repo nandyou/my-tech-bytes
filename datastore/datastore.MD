@@ -1,7 +1,11 @@
 #How to decided which DataStore?
-## based on data structure?
-## Read/Write Frequency?
-## Volume of data
-## type of Computation required?
-## partitioning and sharding
-## indexing
+ - based on data structure?
+ - Read/Write Frequency?
+   - Time complexity for each operation
+ - Volume of data
+   - scalability?
+ - type of Computation required?
+   - sorting
+   - 
+ - partitioning and sharding
+ - indexing
