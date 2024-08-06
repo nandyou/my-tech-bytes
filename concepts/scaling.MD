@@ -70,10 +70,7 @@ Example: A system can initially scale vertically until it reaches the practical 
 
 
 ## Many successful systems use a combination of both:
-- Vertically Scaled Clusters: Powerful individual machines form the nodes of a horizontally scaled cluster.
-- Database Sharding: Data is partitioned across multiple database servers (horizontal), while each database server might be vertically scaled.
-
-Choosing between vertical and horizontal scaling depends heavily on the specific needs of the application, the expected scale of growth, budget, and how critical uptime is to the business.
-Often, the best approach involves a combination of both strategies, starting perhaps with vertical scaling for immediate needs and planning for horizontal scaling as the long-term solution.
+- Vertically Scaled Clusters: 
+- Database Sharding:
 
 Credits - https://blog.algomaster.io/p/system-design-vertical-vs-horizontal-scaling
