@@ -12,6 +12,7 @@ They use Structured Query Language (SQL) for defining, manipulating, and queryin
  - Enterprise Applications
  - E-commerce Platforms
  - Banking and Financial Services
+
 Examples: MySQL, PostgreSQL, Oracle Database.
 
 ## Key-Value Store
