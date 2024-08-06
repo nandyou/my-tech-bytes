@@ -1,1 +1,10 @@
 https://towardsdatascience.com/ace-the-system-design-interview-job-scheduling-system-b25693817950
+
+
+Databases - 
+Graph Database : Neo4j, amazon neptune
+Wide Column Stores : Cassandra, HBase, google bigtable
+Spatial : PostGIS, Oracle Spatial
+Text Search DB : Elastic Search
+
+
