@@ -8,4 +8,4 @@
    - sorting
    - 
  - partitioning and sharding
- - Primary Key, Sort key and Partion key & Indexing
+ - Primary Key, Sort key and Partition key & Indexing
