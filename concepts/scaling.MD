@@ -76,3 +76,4 @@ Example: A system can initially scale vertically until it reaches the practical 
 Choosing between vertical and horizontal scaling depends heavily on the specific needs of the application, the expected scale of growth, budget, and how critical uptime is to the business.
 Often, the best approach involves a combination of both strategies, starting perhaps with vertical scaling for immediate needs and planning for horizontal scaling as the long-term solution.
 
+Credits - https://blog.algomaster.io/p/system-design-vertical-vs-horizontal-scaling
