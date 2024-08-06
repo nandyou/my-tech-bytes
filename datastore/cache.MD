@@ -19,3 +19,6 @@
 
 ## Types of Cache 
   - https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/
+
+
+![Strategies](https://github.com/nandyou/my-tech-bytes/blob/main/datastore/images/CacheStrategies.jpg?raw=true)
