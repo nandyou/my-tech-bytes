@@ -169,3 +169,5 @@ Embedded databases are particularly useful in resource-constrained environments 
 - Gaming: 
 - Desktop Applications: 
 Examples: SQLite, RocksDB, Berkeley DB.
+
+Credits - https://blog.algomaster.io/p/15-types-of-databases
