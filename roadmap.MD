@@ -12,6 +12,7 @@ Completed
 TODO
 - Operating System
   - Linux
+  - Shell Scripts
 - Servers
   - Apache
   - Tomcat
