@@ -6,6 +6,8 @@ Completed
   - Jira
 - Language
   - Java
+  - GO
+  - GRAAL VM
 
 
 
@@ -34,6 +36,7 @@ TODO
   - Security
   - Signing
   - Testing
+  - TLS/SSL
 - Databases
 - CI/CD
   - Jenkins
