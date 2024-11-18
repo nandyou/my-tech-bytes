@@ -27,7 +27,7 @@ This tests the UI interactions with the APIs to make sure the data can be displa
 ## Fuzz Testing 
 This injects invalid or unexpected input data into the API and tries to crash the API. In this way, it identifies the API vulnerabilities. 
  
-![Testing Strategies](https://github.com/nandyou/my-tech-bytes/blob/main/testing.gif?raw=true)
+![Testing Strategies](https://github.com/nandyou/my-tech-bytes/blob/main/Testing.gif?raw=true)
 
 
 
