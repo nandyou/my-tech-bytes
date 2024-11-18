@@ -23,6 +23,7 @@ Sure! Here’s the description rewritten in Markdown format:
 - [	Load Balancers	](	https://aws.amazon.com/what-is/load-balancing/	)
 - [	SOLID Principles	](	https://dev.to/tamerlang/series/10989	)
 - [	Distributed System Patterns	](	https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33	)
+- [ Pains of Microservices ](  https://blog.awesomesoftwareengineer.com/p/the-pains-of-microservices-part-1?sd=pf  )
 
 
 ## Contributing
