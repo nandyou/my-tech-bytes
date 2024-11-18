@@ -24,6 +24,8 @@ Sure! Here’s the description rewritten in Markdown format:
 - [	SOLID Principles	](	https://dev.to/tamerlang/series/10989	)
 - [	Distributed System Patterns	](	https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33	)
 - [ Pains of Microservices ](  https://blog.awesomesoftwareengineer.com/p/the-pains-of-microservices-part-1?sd=pf  )
+- [ EDA ] (  https://www.notion.so/Event-Driven-Architecture-a4664256b82d4b2b8e34a22691c7fdab  )
+- [ EDA - Things to Consider ] (  https://eda-visuals.boyney.io/visuals/things-to-consider  )
 
 
 ## Contributing
