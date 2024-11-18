@@ -1,4 +1,4 @@
-using Cheat.sh 
+##using Cheat.sh 
   https://cheat.sh/
   
   TLDR;
@@ -14,8 +14,8 @@ using Cheat.sh
   
 
 
-using ddg
+##using ddg
   https://manpage.me/?q=tar
 
-All Commands MindMap
+##All Commands MindMap
   https://xmind.app/m/WwtB/#
