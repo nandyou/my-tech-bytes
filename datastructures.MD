@@ -38,3 +38,13 @@ This table summarizes the typical average-case complexities for these operations
 2) MIT OpenCourseWare https://lnkd.in/e-vYsCg
 3) Udacity's free course (focused on Interviews) https://lnkd.in/eD8mkz9
 4) GeeksforGeeks https://lnkd.in/e__6VJ6 https://lnkd.in/eKTJn4z
+
+
+
+### Example
+1. **Queue**  - Meessaging immplementation - FIFO
+2. **STACK ** -validation of HTML tags   -  LIFO - 
+3. **LinkedList**   - Consider designing a scavanger hunt game when first problem solution will give us next clue.
+4. 
+
+
